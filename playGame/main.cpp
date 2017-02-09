@@ -30,7 +30,7 @@ void drawQuad(sf::RenderWindow &w, sf::Color c, int x1, int y1, int w1, int x2, 
 }
 
 int main(int, char const**) {
-    sf::RenderWindow window(sf::VideoMode(widht, height), "SFML window");
+    sf::RenderWindow window(sf::VideoMode(widht, height), "Racing window");
     window.setFramerateLimit(40);
 
     while (window.isOpen()) {
